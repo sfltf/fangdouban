@@ -1,0 +1,648 @@
+/* login.html*/
+.logo
+{
+    float: left;
+
+    width: 20%;
+    height: 100px;
+    padding-top: 25px;
+    padding-left: 10%;
+}
+
+.account-login
+{
+    float: left;
+
+    width: 80%;
+    height: 100px;
+}
+
+.account-login h1
+{
+    margin-left: -25%;
+}
+
+/* register.html */
+label
+{
+    font-size: 20px;
+    line-height: 40px;
+
+    width: 90px;
+    height: 40px;
+}
+
+.register-name input,
+.set-password input,
+.confirm-password input,
+.phone-number input
+{
+    display: block;
+
+    margin: -40px 0 0 90px;
+}
+
+.register-button
+{
+    margin-left: 25%;
+}
+
+.group-column-row-content p
+{
+    color: #333;
+}
+
+/* club-column.html */
+.club-column-name h1,
+.my-page h1,
+.group-header-club-name h1,
+.club-column-box-name h1
+{
+    color: #333;
+}
+
+/* search.html 只适应一些尺寸不同的屏幕*/
+@media screen and (min-width: 721px)
+{
+    .footer
+    {
+        width: 718px;
+    }
+}
+
+@media screen and (max-width: 450px)
+{
+    label
+    {
+        font-size: 15px;
+    }
+
+    .register-name,
+    .set-password,
+    .confirm-password,
+    .phone-number
+    {
+        margin-top: 5%;
+        margin-left: 0;
+    }
+
+    .account-login
+    {
+        padding-left: 20%;
+    }
+
+    .register
+    {
+        margin-top: -15px;
+    }
+}
+
+/* 搜索页面search.html*/
+.return-button,
+.view-name
+{
+    float: left;
+
+    height: 100px;
+}
+
+.view-name h1
+{
+    font-size: 30px;
+
+    color: #555;
+}
+
+.view-name
+{
+    margin-left: 30%;
+}
+
+.return-button
+{
+    margin-left: 10%;
+    padding-top: 40px;
+}
+
+.group-search
+{
+    border-bottom: 1px solid #888;
+}
+
+.header
+{
+    margin-left: -10px;
+}
+
+.group-search-history
+{
+    display: none;
+}
+
+.delete
+{
+    float: right;
+
+    margin-top: 20px;
+}
+
+.group-hot-search-no
+{
+    height: 60px;
+}
+
+.group-hot-search p,
+.group-hot-search-no p
+{
+    line-height: 60px;
+
+    color: #5bd97c;
+}
+
+.club-result a,
+.topic-result a,
+.user-result a
+{
+    float: right;
+
+    margin-top: -35px;
+
+    color: #5bd97c;
+}
+
+.club-reply-icon,
+.topic-reply-icon,
+.user-reply-icon
+{
+    float: left;
+
+    width: 10%;
+    height: 60px;
+    margin-top: -60px;
+    margin-left: 82%;
+    padding-top: 22px;
+}
+
+
+/* column-club 页面*/
+
+.group-column-row-content p
+{
+    color: #333;
+}
+
+.club-column-login
+{
+    display: inline;
+}
+
+.club-column-login a
+{
+    color: #4cae4c;
+}
+
+.club-column-login
+{
+    line-height: 100px;
+}
+
+.club-column-box-name
+{
+    margin-top: -100px;
+}
+
+.search-icon
+{
+    display: inline-block;
+}
+
+.search-icon
+{
+    float: left;
+
+    margin-top: -63px;
+    margin-left: 78%;
+}
+
+.hot-column-content
+{
+    height: 200px;
+
+    border-bottom: 1px solid #888;
+}
+
+
+/* radio.html */
+.group-header-club-name
+{
+    float: left;
+
+    width: 80%;
+}
+
+.group-header-user-icon
+{
+    float: right;
+
+    width: 20%;
+    height: 50px;
+    margin-top: 33px;
+    margin-left: -20%;
+}
+
+.group-column-user-icon,
+.group-column-user-description,
+.group-column-user-write,
+.group-column-user-photo
+{
+    float: left;
+}
+
+.group-column-user-icon
+{
+    width: 10%;
+    height: 50px;
+
+    border-radius: 20px;
+}
+
+.group-column-user-icon img
+{
+    margin-top: 5px;
+
+    border: 2px solid #ece9e9;
+    border-radius: 20px;
+}
+
+.group-column-user-description
+{
+    width: 60%;
+    height: 50px;
+}
+
+.group-column-user-description p
+{
+    font-size: 15px;
+    line-height: 50px;
+
+    height: 50px;
+
+    text-align: center;
+}
+
+.group-column-user-write
+{
+    width: 15%;
+    margin-top: 10px;
+}
+
+.group-column-user-photo
+{
+    width: 10%;
+    margin-top: 10px;
+}
+
+.group-radio
+{
+    width: 100%;
+    margin-top: 20px;
+
+    border: 1px solid #999;
+    border-radius: 3px;
+}
+
+.group-radio-delete
+{
+    width: 100%;
+    height: 30px;
+}
+
+.group-radio-delete img
+{
+    float: right;
+}
+
+.group-radio-person
+{
+    width: 100%;
+    height: 60px;
+}
+
+.group-radio-person-icon,
+.group-radio-message,
+.group-radio-attention
+{
+    float: left;
+}
+
+.group-radio-person-icon
+{
+    width: 20%;
+    height: 60px;
+    margin-left: 5%;
+}
+
+.group-radio-person-icon img
+{
+    margin-top: 5px;
+
+    border: 3px solid #ece9e9;
+    border-radius: 25px;
+}
+
+.group-radio-message
+{
+    width: 55%;
+    height: 60px;
+    margin-top: 10px;
+}
+
+
+.group-radio-attention
+{
+    width: 15%;
+    height: 60px;
+    margin-top: 20px;
+}
+
+.group-radio-attention-box
+{
+    width: 50px;
+    height: 30px;
+    margin-top: -5px;
+
+    background-color: #4cae4c;
+}
+
+.group-radio-attention-box p
+{
+    line-height: 30px;
+
+    text-align: center;
+
+    color: #fff;
+}
+
+.group-radio-content
+{
+    float: right;
+
+    width: 80%;
+}
+
+.group-radio-thumb
+{
+    clear: right;
+
+    width: 80%;
+    height: 30px;
+    margin-left: 20%;
+}
+
+.group-radio-thumb-icon,
+.group-radio-thumb-num,
+.group-radio-message-icon,
+.group-radio-message-num
+{
+    float: left;
+}
+
+.group-radio-thumb-num,
+.group-radio-message-icon,
+.group-radio-message-num
+{
+    margin-left: 10px;
+}
+
+.group-radio-message-icon
+{
+    margin-top: 5px;
+}
+
+
+/* read.html */
+.group-column-search-icon
+{
+    margin-top: -62px;
+    margin-left: 80%;
+}
+.group-column-name
+{
+    float: left;
+
+    width: 80%;
+}
+.group-column-link
+{
+    line-height: 50px;
+
+    float: left;
+
+    width: 20%;
+    height: 50px;
+}
+
+.group-column-link a
+{
+    color: #4cae4c;
+}
+
+.group-column-link p
+{
+    float: left;
+}
+
+.group-column-link img
+{
+    float: left;
+
+    width: 12px;
+    margin-top: 7px;
+    margin-left: 5px;
+}
+
+
+.group-read
+{
+    display: -webkit-box;
+    overflow: scroll;
+
+    height: 220px;
+    margin-right: 10px;
+
+    border-bottom: 1px solid #888;
+
+    -webkit-overflow-scrolling: touch;
+}
+
+.group-read-book-icon
+{
+    display: table-cell;
+
+    width: 100px;
+    height: 150px;
+
+    vertical-align: middle;
+}
+
+.group-read-book-icon img
+{
+    width: 80px;
+    height: 120px;
+}
+
+.group-read-book-name
+{
+    width: 70px;
+    height: 30px;
+    margin-top: -10%;
+}
+
+.group-read-book-name p
+{
+    font-size: 10px;
+
+    overflow: hidden;
+
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.group-read-score-icon
+{
+    float: left;
+
+    width: inherit;
+    height: 20px;
+    margin-top: -16px;
+}
+
+.group-read-score-icon img,
+.group-read-score-special
+{
+    width: 10px;
+}
+
+.group-read-score-icon img
+{
+    margin-right: -5px;
+}
+
+.group-read-score-num
+{
+    font-size: 10px;
+
+    float: left;
+
+    height: 30px;
+    margin-top: -12px;
+    margin-left: 10px;
+}
+
+
+/* my-page.html */
+
+.my-icon {
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    width: 25%;
+}
+
+.group-message {
+    height: 100px;
+    border-bottom: 1px solid #888;
+}
+
+.my-icon img {
+    width: 50px;
+    height: 50px;
+    border: 3px solid #888;
+    border-radius: 25px;
+}
+
+.my-message {
+    float: left;
+    width: 75%;
+}
+
+.my-name {
+    padding-top: 8%;
+    padding-bottom: 2%;
+    height: 60px;
+    border-bottom: 1px solid #888;
+}
+
+.attention {
+    padding-top: 1%;
+    height: 40px;
+}
+
+.attention-name,
+.attention-num,
+.be-attention-name,
+.be-attention-num {
+    float: left;
+}
+.attention-num,
+.be-attention-num{
+    margin-left: 3%;
+}
+
+.be-attention-name {
+    margin-left: 5%;
+}
+
+.group-life-list {
+    height: 120px;
+    border-bottom: 1px solid #888;
+}
+
+.box-love,
+.box-diary,
+.box-photo,
+.box-radio {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.box-love-icon,
+.box-diary-icon,
+.box-photo-icon,
+.box-radio-icon {
+    height: 80px;
+    padding-top: 30px;
+}
+
+.box-love-icon img,
+.box-diary-icon img,
+.box-photo-icon img,
+.box-radio-icon img,
+.box-movie-icon img,
+.box-read-icon img,
+.box-music-icon img,
+.box-cite-icon img {
+    width: 35px;
+}
+
+.group-amusement-list {
+    height: 120px;
+}
+
+.box-movie,
+.box-read,
+.box-music,
+.box-cite {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.box-movie-icon,
+.box-read-icon,
+.box-music-icon,
+.box-cite-icon {
+    height: 80px;
+    padding-top: 30px;
+}
